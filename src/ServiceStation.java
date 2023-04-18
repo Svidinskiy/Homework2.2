@@ -1,17 +1,6 @@
 public class ServiceStation {
-    public void check(WheeledVehicle vehicle) {
+    public void check(Vehicle vehicle) {
         System.out.println("Обслуживаем " + vehicle.getModelName());
-        for (int i = 0; i < vehicle.getWheelsCount(); i++) {
-            vehicle.updateTyre();
-        }
+        vehicle.service();
     }
-
-    public void check(MotorVehicle vehicle) {
-        check((WheeledVehicle) vehicle);
-        vehicle.checkEngine();
-        if (vehicle instanceof Truck) {
-            ((Truck) vehicle).checkTrailer();
-        }
-    }
-
 }
