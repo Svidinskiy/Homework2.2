@@ -21,6 +21,4 @@ public class Vehicle {
         this.wheelsCount = wheelsCount;
     }
 
-
-
 }
