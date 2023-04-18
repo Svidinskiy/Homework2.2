@@ -6,4 +6,5 @@ public abstract class WheeledVehicle extends Vehicle {
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
+
 }

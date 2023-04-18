@@ -13,4 +13,5 @@ public class ServiceStation {
             ((Truck) vehicle).checkTrailer();
         }
     }
+
 }

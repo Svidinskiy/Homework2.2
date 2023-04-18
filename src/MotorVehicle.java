@@ -6,4 +6,5 @@ public abstract class MotorVehicle extends WheeledVehicle {
     public void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
+
 }

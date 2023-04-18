@@ -20,4 +20,5 @@ public class Vehicle {
     public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
     }
+
 }
